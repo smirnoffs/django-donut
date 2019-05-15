@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     # external libs
     'django_extensions',
     'rest_framework',
+    'rest_framework_swagger',
 
     # donut libs
     'donut.books',

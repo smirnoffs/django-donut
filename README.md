@@ -21,6 +21,12 @@ python manage.py migrate
 python manage.py runserver
 ```
 
+Swagger UI http://127.0.0.1:8000/docs/books/
+
+Open API http://127.0.0.1:8000/swagger/books/?format=openapi
+
+Browsable API http://127.0.0.1:8000/
+
 ## Run tests
 
 Tests should be run from the django-donut/donut folder
@@ -28,4 +34,6 @@ Tests should be run from the django-donut/donut folder
 ```
 pytest .
 ```
+
+
 

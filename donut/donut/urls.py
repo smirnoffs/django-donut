@@ -17,7 +17,7 @@ from django.contrib import admin
 from django.urls import include, path
 from rest_framework import routers
 
-from donut.books.views import BookViewSet
+from donut.books.views import BookViewSet, books_schema_view
 
 router = routers.DefaultRouter()
 router.register(r'books', BookViewSet)
@@ -26,5 +26,6 @@ router.register(r'books', BookViewSet)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('swagger/books/', books_schema_view),
     path('', include(router.urls)),
 ]
