@@ -1,0 +1,5 @@
+django==2.2.1
+djangorestframework==3.9.4
+django-extensions==2.1.6
+pytest==4.5.0
+pytest-django==3.4.8
